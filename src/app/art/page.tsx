@@ -12,12 +12,12 @@ type Painting = {
 // ─────────────────────────────────────────────────────────────────────────────
 
 const PAINTINGS: Painting[] = [
-  { src: "/art/paint_2.jpeg", alt: "...", title: "My Painting", date: "2026-05" },
+  { src: "/art/paint_2.jpeg", alt: "...", title: "", date: "2026-05" },
 
-  { src: "/art/paint_1-1.jpeg", alt: "...", title: "My Painting", date: "2025-05" },
-  { src: "/art/paint_1-0.jpeg", alt: "...", title: "My Painting", date: "2025-05" },
+  { src: "/art/paint_1-1.jpeg", alt: "...", title: "", date: "2025-05" },
+  { src: "/art/paint_1-0.jpeg", alt: "...", title: "", date: "2025-05" },
 
-  { src: "/art/paint_0.jpeg", alt: "...", title: "My Painting", date: "2024-05" },
+  { src: "/art/paint_0.jpeg", alt: "...", title: "", date: "2024-05" },
 ];
 
 function formatDate(yyyyMM: string) {
